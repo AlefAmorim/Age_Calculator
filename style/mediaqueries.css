@@ -1,0 +1,87 @@
+@charset "UTF-8";
+
+@media screen and (min-width
+:320px) and (max-width:389px){
+    main{
+        width:230px;
+    }
+    .data{
+        width: 0px;
+        margin: 20px 0px 20px 0px;
+    }
+    input{
+        width:70px;
+        margin:0px 10px 0px 0px;
+    }
+    .button_area{
+        width: 230px;
+        height: 0px;
+        transform: translateX(5px);
+    }
+    .message_error p{
+        width: 90px;
+    }
+    .age{
+        font-size: 2.4em;
+    }
+}
+
+@media screen and (min-width:390px) and (max-width:499px){
+    main{
+        width:290px;
+    }
+    .data{
+        width: 0px;
+        margin: 20px 0px 20px 0px;
+    }
+    input{
+        width: 80px;
+        margin: 0px 16px 0px 0px;
+    }
+    .button_area{
+        width: 230px;
+        height: 0px;
+        transform: translateX(29px);
+    }
+    .age{
+        font-size: 2.3em;
+    }
+    footer{
+        font-size: 1.1em;
+    }
+}
+
+@media screen and (min-width:500px) and (max-width:759px){
+    .message_error p{
+        transform: translateX(-110px);
+    }
+}
+
+@media screen and (min-width:760px) {
+    main{
+        transition: 1s;
+        width: 600px;
+        border-bottom-right-radius: 150px;
+    }
+    .data{
+        justify-content: center;
+    }
+    input{
+        width: 130px;
+        height: 60px;
+        border-radius: 7px;
+    }
+    .message_error{
+        font-size: 1em;
+        transform: translateY(70px);
+    }
+    .message_error p{
+        transform: translateX(-167px);
+    }
+    .button_area{
+        transform: translateX(400px);
+    }
+    .age{
+        font-size: 4em;
+    }
+}
