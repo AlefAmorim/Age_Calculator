@@ -68,7 +68,7 @@ function calculateAge(currentDay,currentMonth,currentYear,dayOfBirth,monthOfBirt
     day=birthday[0],month=birthday[1],i=0,
     monthDaysOfAge=[0,0,0],
     pastYear=currentYear-1;
-    if(birthday[1]<currentMonth || birthday[0]<currentDay){
+    if(birthday[0]<currentDay && birthday[1]<=currentMonth){
         monthDaysOfAge[2]=currentYear-birthday[2];
         for(i;month<=currentMonth;i++){
             let date=new Date(currentYear,month,0);
